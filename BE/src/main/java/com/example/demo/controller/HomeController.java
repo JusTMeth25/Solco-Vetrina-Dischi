@@ -12,6 +12,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "redirect:https://justmeth25.github.io/FS0226IT---U5W7D2/";
+        return "redirect:https://justmeth25.github.io/Solco-Vetrina-Dischi/";
     }
 }

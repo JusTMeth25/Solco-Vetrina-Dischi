@@ -5,5 +5,5 @@ import { defineConfig } from 'vite'
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
   // su GitHub Pages il sito vive in /<nome-repo>/ (npm run build:pages)
-  base: mode === 'pages' ? '/FS0226IT---U5W7D2/' : '/',
+  base: mode === 'pages' ? '/Solco-Vetrina-Dischi/' : '/',
 }))

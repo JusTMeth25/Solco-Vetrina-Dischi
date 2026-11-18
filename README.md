@@ -14,7 +14,7 @@ in due finestre e apre il browser quando il backend risponde. Per fermare tutto 
 
 ## Versione pubblicata
 
-- Frontend: https://justmeth25.github.io/FS0226IT---U5W7D2/ (GitHub Pages)
+- Frontend: https://justmeth25.github.io/Solco-Vetrina-Dischi/ (GitHub Pages)
 - Backend: https://solco-api.onrender.com (Render, piano gratuito, profilo `demo`)
 
 Il backend pubblico usa il profilo **`demo`** (`BE/src/main/resources/application-demo.properties`):
@@ -31,7 +31,7 @@ database **H2 in memoria** dentro lo stesso server, nessun servizio di database 
 ### Primo deploy del backend (una volta sola)
 
 1. Accedi a https://render.com con l'account GitHub.
-2. **New → Blueprint**, scegli il repository `FS0226IT---U5W7D2`: Render legge `render.yaml` e crea il servizio `solco-api`.
+2. **New → Blueprint**, scegli il repository `Solco-Vetrina-Dischi`: Render legge `render.yaml` e crea il servizio `solco-api`.
 3. Conferma con **Apply**. La prima build Docker richiede qualche minuto.
 4. Se Render assegna un indirizzo diverso da `https://solco-api.onrender.com`, aggiorna `FE/.env.pages` e ripubblica il frontend.
 
